@@ -1,0 +1,49 @@
+$admcolor: #fff;
+$button: #EF5350;
+$hover: #ef7d64;
+$width: 80%;
+.container {
+
+  border-radius: 5px;
+  width: 80%;
+  margin: 2rem 0;
+  background: $admcolor;
+  padding: 2rem;
+  form {
+    display: flex;
+    justify-content: space-between;
+    .enter-form{
+      display: flex;
+    }
+    .btn-custom {
+      border-radius: 3px;
+      font-size: 12px;
+      background: $button;
+      color: white;
+      padding: 5px 40px;
+      margin-left: .75em;
+      vertical-align: middle;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        background: $hover;
+
+      }
+
+    }
+  }
+}
+
+  .conatiner__history {
+    border-radius: 5px;
+    width: $width;
+    background: $admcolor;
+    padding: 2rem;
+    table {
+      tr {
+        th {
+          text-align: left;
+        }
+      }
+    }
+  }

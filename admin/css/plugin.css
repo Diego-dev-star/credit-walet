@@ -1,0 +1,33 @@
+.container {
+  border-radius: 5px;
+  width: 80%;
+  margin: 2rem 0;
+  background: #fff;
+  padding: 2rem; }
+  .container form {
+    display: flex;
+    justify-content: space-between; }
+    .container form .enter-form {
+      display: flex; }
+    .container form .btn-custom {
+      border-radius: 3px;
+      font-size: 12px;
+      background: #EF5350;
+      color: white;
+      padding: 5px 40px;
+      margin-left: .75em;
+      vertical-align: middle;
+      border: none;
+      cursor: pointer; }
+      .container form .btn-custom:hover {
+        background: #ef7d64; }
+
+.conatiner__history {
+  border-radius: 5px;
+  width: 80%;
+  background: #fff;
+  padding: 2rem; }
+  .conatiner__history table tr th {
+    text-align: left; }
+
+/*# sourceMappingURL=plugin.css.map */
